@@ -1,3 +1,4 @@
+
 variable "ENVIRONMENT" {
 description = "this is ec2 name"
   default   = "dev-server"
