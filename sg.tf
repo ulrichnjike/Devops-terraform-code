@@ -1,6 +1,6 @@
 resource "aws_security_group" "sg1" {
  description = "Allow ssh and Httpd"
-  name = "QA-sg"
+  name = "Dev-sg"
   vpc_id = aws_vpc.vpc1.id
  
      ingress {
