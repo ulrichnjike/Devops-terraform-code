@@ -50,7 +50,7 @@ resource "aws_lb" "application-lb" {
   enable_deletion_protection = false
 
   tags = {
-    Environment = "application-lb"
+    Environment = "Dev-lb"
     Name        = "Application-lb"
     
   }
