@@ -1,7 +1,7 @@
 
 variable "ENVIRONMENT" {
 description = "this is ec2 name"
-  default   = "dev-server"
+  default   = "dev-ec2"
   type      = string
 }
 
