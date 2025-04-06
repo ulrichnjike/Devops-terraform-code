@@ -5,7 +5,7 @@ resource "aws_vpc" "vpc1" {
 #   enable_dns_support = true
   tags = {
     Name = "Terraform-vpc"
-    Env = "Dev"
+    Env = "Dev-vpc"
     Team = "DevOps"
   }
 }
